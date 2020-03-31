@@ -9,6 +9,9 @@ const transform = require("./transform.js");
 const parseOptions = {
   sourceType: "module",
   plugins: [
+    //"decorators",	
+    "decorators-legacy",
+    "babel-plugin-transform-decorators-legacy",
     // enable jsx and flow syntax
     "jsx",
     "flow",
