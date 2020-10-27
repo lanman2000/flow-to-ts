@@ -14,7 +14,7 @@ afterwards, e.g. changing `SyntheticEvent` to `React.Event`.
 
 # Quick start
 
-- `yarn global add @khanacademy/flow-to-ts`
+- `yarn global add @lanman2000/flow-to-ts`
 - `flow-to-ts [options] <file globs>`
 
 # Playground
@@ -50,15 +50,6 @@ except for small things. Also, please sign our [Contributor License Agreement](h
 
 Pull requests that fix a bug in the conversion code should include one or more
 test cases and should have 100% diff coverage.
-
-## Dev quick start
-
-```bash
-git clone git@github.com:Khan/flow-to-ts.git
-cd flow-to-ts
-yarn
-yarn test
-```
 
 ## Helpful resources
 
